@@ -6,6 +6,8 @@ public class Program {
 
         DB _db = new DB();
         _db.printFilijala();
+        _db.printPositiveRacun();
         
+      
     }
 }
