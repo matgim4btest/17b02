@@ -55,10 +55,10 @@ public class DB {
             t1.setInt(1,IdKom);
           ResultSet rs=st1.executeQuery();
           String upit2="SELECT  IDrac,Stanje FROM Racun WHERE IdKom=? AND Stanje>0";
-          PreparedStatement st2=connection.prepareStatement(upit3);
-        rs=sr2.executeQuery();
+          PreparedStatement st2=connection.prepareStatement(upit2);
+        rs=st2.executeQuery();
            
-            st.execute();
+            //st.execute();
             
             if(false) throw new SQLException("nestala struja");
             
